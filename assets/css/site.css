@@ -1,0 +1,9 @@
+section {
+  margin: 1rem;
+  padding: 1rem;
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+
+  width: 60%;
+}

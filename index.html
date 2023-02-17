@@ -11,24 +11,66 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/site.css">
     <script src="assets/js/app.js" defer></script>
 </head>
 
+
 <body>
 
-    <!--    <article>
+    <!-- som man ville skrive det i HTML5
+        
+        <article>
         <h2>min artikel</h2>
         <img src="https://heleverdeniskole.dk/sites/default/files/styles/main_pictures_as_primary_image/public/media/uganda_-_photo/elephant_uganda_brian_harries_jpeg680x454.jpg?itok=4NB50A1a"
             alt="">
         <p>fin elefant er meget stor</p>
-    </article> -->
+        </article> 
+
+-->
+
+
+    <section>
+        <h2>inner text</h2>
+        <div id="innertext">my tekst</div>
+    </section>
+
+
+    <section>
+        <h2>inner html</h2>
+        <div id="innerhtml">my html</div>
+    </section>
 
 
 
-    <div id="innertext">my tekst</div>
+    <section>
+        <article>
+            <h2>Forskel på innerText og innerHTML</h2>
+            <p>innerText og innerHTML er to forskellige måder at manipulere indholdet af HTML-elementer på ved hjælp af
+                JavaScript.
 
-    <div id="innerhtml">my html</div>
+                innerText henviser til den tekst, der er synlig på skærmen inden for et HTML-element. Når du bruger
+                innerText, vil alt
+                HTML-kode blive vist. Hvis du vil ændre teksten, skal du
+                simpelthen tildele en
+                ny tekststreng til innerText-egenskaben.
+
+                innerHTML henviser til alt indholdet i et HTML-element, inklusive HTML-tags, der er indeholdt i
+                elementet. Når du bruger
+                innerHTML, vil alt HTML-kode blive evalueret, og den resulterende DOM-struktur vil blive skabt. Dette
+                betyder, at du kan
+                bruge innerHTML til at oprette eller ændre HTML-elementer og deres indhold på en mere avanceret måde end
+                med innerText.
+
+                En vigtig forskel at være opmærksom på er, at innerHTML kan være mere sårbart over for sikkerhedshuller,
+                da du kan
+                indsætte vilkårlig HTML-kode. Hvis du ikke er forsigtig, kan det resultere i såkaldt "cross-site
+                scripting" eller
+                XSS-angreb, hvor en angriber kan indføre skadelig kode på en webside. Derfor skal du altid være
+                forsigtig med at bruge
+                innerHTML og sørge for at filtrere eller validere brugerinput.</p>
+        </article>
+    </section>
 
 </body>
 
